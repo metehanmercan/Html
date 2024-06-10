@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <!--biçimlendirme etiketleri
     1- hr  satırın altına çizgi çizer 
@@ -13,6 +15,10 @@
     4- b yazıyı kalın yapar
     5- i italik yapar
     6- mark yazının üstünü sarı yapar
+    7- center ortalar metni ya da yazıyı
+    8- a link vermek için kullanılır 
+    9- ol(ordinary list), ul(unordinary list)
+    10- table tr,td,th,rowspan,colspan
     -->
     <h2><mark><i>HTML Dersleri</i></mark></h2>
     <hr>
@@ -22,5 +28,61 @@
     <p><b>SQL Server Dersleri</b></p>
     <p>PHP Dersleri</p>
 
+    <h3>İÇECEKLER</h3>
+    <ul>
+        <li>Kahve</li>
+        <li>Çay</li>
+        <li>oralet</li>
+    </ul>
+
+    <OL>
+        <li>Kahve</li>
+        <li>Çay</li>
+        <li>oralet</li>
+    </OL>
+
+    <Ol type="1">
+        <li>İç donanım birimleri</li>
+        <Ol type="I">
+            <li>Anakart</li>
+            <li>İşlemci</li>
+            <li>Bellek</li>
+        </Ol>
+        <li>dış donanım birimleri </li>
+        <ol type="1">
+            <li>Monitör</li>
+            <ol type="a">
+                <li>LCD</li>
+                <li>LED</li>
+            </ol>
+            <li>Klavye</li>
+            <li>Mouse</li>
+        </ol>
+    </Ol>
+
+    <table border="1">
+        <tr>
+<th colspan="3">KİŞİSEL BİLGİLER</th>
+        </tr>
+
+        <tr>
+            <th>isim</th>
+            <th>soyisim</th>
+            <th>yaş</th>
+        </tr>
+
+        <tr>
+            <td>metehan</td>
+            <td>mercan</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>ali</td>
+            <td>mercan</td>
+            <td>24</td>
+        </tr>
+    </table>
+
 </body>
+
 </html>
